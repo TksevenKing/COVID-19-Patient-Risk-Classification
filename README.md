@@ -38,23 +38,4 @@ Statut de grossesse, tabagisme, maladies chroniques, etc.
 
 Les colonnes avec des valeurs invalides (97, 99, "9999-99-99") ont été filtrées ou encodées.
 
-📊 Données utilisées
-Les données sont issues d’un jeu de données public concernant les cas de COVID-19. Elles comprennent des variables comme :
 
-Sexe
-
-Pneumonie
-
-Diabète
-
-Hypertension
-
-Obésité
-
-Type de patient
-
-Intubation, entrée en soins intensifs, décès
-
-Statut de grossesse, tabagisme, maladies chroniques, etc.
-
-Les colonnes avec des valeurs invalides (97, 99, "9999-99-99") ont été filtrées ou encodées.
