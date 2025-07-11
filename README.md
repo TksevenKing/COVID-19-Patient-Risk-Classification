@@ -17,25 +17,32 @@ Les performances sont évaluées avec **GridSearchCV**, **F1-score**, **accuracy
 
 ---
 
-📊 Données utilisées
+## 📊 Données utilisées
 Les données sont issues d’un jeu de données public concernant les cas de COVID-19. Elles comprennent des variables comme :
 
-Sexe
+- Sexe
 
-Pneumonie
+- Pneumonie
 
-Diabète
+- Diabète
 
-Hypertension
+- Hypertension
 
-Obésité
+- Obésité
 
-Type de patient
+- Type de patient
 
-Intubation, entrée en soins intensifs, décès
+- Intubation, entrée en soins intensifs, décès
 
-Statut de grossesse, tabagisme, maladies chroniques, etc.
+- Statut de grossesse, tabagisme, maladies chroniques, etc.
 
-Les colonnes avec des valeurs invalides (97, 99, "9999-99-99") ont été filtrées ou encodées.
+- Les colonnes avec des valeurs invalides (97, 99, "9999-99-99") ont été filtrées ou encodées.
 
+## 📈 Résultats obtenus
 
+🔍 Métriques :
+- Accuracy : 0.87
+
+- F1-score classe "à risque" : 0.84
+
+- Courbe ROC : AUC = 0.91
